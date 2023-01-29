@@ -1,0 +1,338 @@
+# Luansevka {{{
+
+[buildPlans.luansevka]
+family = "Luansevka"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = true
+
+  [buildPlans.luansevka.variants]
+  inherits = "ss08"
+
+    [buildPlans.luansevka.variants.design]
+    capital-a = "curly-top-serifed"
+    capital-b = "standard-interrupted-bilateral-serifed"
+    capital-c = "unilateral-serifed"
+    capital-d = "more-rounded-unilateral-serifed"
+    capital-e = "top-left-serifed"
+    capital-f = "top-left-serifed"
+    capital-g = "toothless-rounded-serifed-hooked"
+    capital-h = "top-left-serifed"
+    capital-i = "serifed"
+    capital-j = "flat-hook-serifed"
+    capital-k = "straight-top-left-serifed"
+    capital-l = "motion-serifed"
+    capital-m = "slanted-sides-hanging-motion-serifed"
+    capital-n = "asymmetric-motion-serifed"
+    capital-p = "open-motion-serifed"
+    capital-q = "detached-bend-tailed"
+    capital-r = "curly-open-motion-serifed"
+    capital-s = "unilateral-serifed"
+    capital-t = "motion-serifed"
+    capital-u = "toothless-corner-unilateral-motion-serifed"
+    capital-v = "curly-motion-serifed"
+    capital-w = "curly-motion-serifed"
+    capital-x = "curly-motion-serifed"
+    capital-y = "curly-motion-serifed"
+    capital-z = "curly-top-serifed-with-horizontal-crossbar"
+    a = "single-storey-earless-rounded-tailed"
+    b = "toothless-rounded"
+    c = "bilateral-inward-serifed"
+    d = "toothless-rounded-serifless"
+    e = "rounded"
+    f = "flat-hook-extended"
+    g = "double-storey-open"
+    h = "tailed"
+    i = "tailed"
+    j = "serifless"
+    k = "curly-serifless"
+    l = "tailed"
+    m = "earless-rounded-double-arch-short-leg-tailed"
+    n = "earless-rounded-tailed"
+    p = "earless-rounded"
+    q = "earless-rounded"
+    r = "earless-rounded"
+    s = "unilateral-inward-serifed"
+    t = "standard-short-neck2"
+    u = "toothless-rounded"
+    v = "cursive"
+    w = "cursive"
+    x = "curly-serifless"
+    y = "curly-turn"
+    z = "straight-serifless-with-horizontal-crossbar"
+    cyrl-capital-ya = "curly-open"
+    zero = "long-dotted-oval"
+    one = "no-base-long-top-serif"
+    two = "straight-neck"
+    three = "flat-top"
+    four = "semi-open-non-crossing"
+    five = "oblique-upper-left-bar"
+    six = "straight-bar"
+    seven = "curly-crossbar"
+    eight = "crossing-asymmetric"
+    nine = "straight-bar"
+    paren = "large-contour"
+    brace = "curly"
+    ampersand = "et-toothless-rounded"
+    at = "short"
+    dollar = "interrupted-cap"
+    percent = "rings-segmented-slash"
+    bar = "force-upright"
+    lig-ltgteq = "slanted"
+    question = "corner-flat-hooked"
+    lig-equal-chain = "with-notch"
+
+  [buildPlans.luansevka.ligations]
+  inherits = "javascript"
+
+[buildPlans.luansevka.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.luansevka.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+# }}}
+
+# Luansevka Slab {{{
+
+[buildPlans.luansevka-slab]
+family = "Luansevka Slab"
+spacing = "normal"
+serifs = "slab"
+no-cv-ss = true
+export-glyph-names = true
+
+  [buildPlans.luansevka-slab.variants]
+  inherits = "ss08"
+
+    [buildPlans.luansevka-slab.variants.design]
+    capital-a = "curly-tri-serifed"
+    capital-b = "more-asymmetric-interrupted-bilateral-serifed"
+    capital-c = "bilateral-inward-serifed"
+    capital-d = "more-rounded-bilateral-serifed"
+    capital-e = "serifed"
+    capital-f = "serifed"
+    capital-g = "toothed-serifed-capped"
+    capital-h = "top-left-bottom-right-serifed"
+    capital-i = "serifed"
+    capital-j = "flat-hook-serifed-both-sides"
+    capital-k = "straight-serifed"
+    capital-l = "serifed"
+    capital-m = "slanted-sides-hanging"
+    capital-n = "asymmetric"
+    capital-p = "open"
+    capital-q = "detached-bend-tailed"
+    capital-r = "straight-open"
+    capital-s = "bilateral-serifed"
+    capital-t = "serifed"
+    capital-u = "toothless-corner"
+    capital-v = "curly"
+    capital-w = "curly"
+    capital-x = "curly-serifed"
+    capital-y = "straight-serifed"
+    capital-z = "straight-serifed-with-horizontal-crossbar"
+    a = "single-storey-earless-corner-tailed"
+    b = "toothed"
+    c = "bilateral-inward-serifed"
+    d = "tailed-serifless"
+    e = "rounded"
+    f = "flat-hook-diagonal-tailed"
+    g = "double-storey-open"
+    h = "tailed"
+    i = "tailed-serifed"
+    j = "diagonal-tailed-serifed"
+    k = "curly-serifed"
+    l = "diagonal-tailed"
+    m = "short-leg"
+    n = "tailed"
+    p = "motion-serifed"
+    q = "straight-motion-serifed"
+    r = "earless-rounded-serifed"
+    s = "bilateral-inward-serifed"
+    t = "diagonal-tailed-short-neck2"
+    u = "tailed"
+    v = "cursive-serifed"
+    w = "cursive"
+    x = "curly-motion-serifed"
+    y = "curly-turn"
+    z = "curly-top-serifed-with-horizontal-crossbar"
+    zero = "long-dotted-oval"
+    one = "base-long-top-serif"
+    two = "straight-neck"
+    three = "flat-top"
+    four = "semi-open-non-crossing"
+    five = "oblique-upper-left-bar"
+    six = "straight-bar"
+    seven = "curly-crossbar"
+    eight = "crossing-asymmetric"
+    nine = "straight-bar"
+    paren = "large-contour"
+    brace = "curly"
+    ampersand = "et-toothless-rounded"
+    at = "short"
+    dollar = "interrupted-cap"
+    percent = "rings-segmented-slash"
+    bar = "force-upright"
+    lig-ltgteq = "slanted"
+    question = "corner-flat-hooked"
+    lig-equal-chain = "with-notch"
+
+  [buildPlans.luansevka-slab.ligations]
+  inherits = "javascript"
+
+[buildPlans.luansevka-slab.weights.extralight]
+shape = 200
+menu = 200
+css = 200
+
+[buildPlans.luansevka-slab.weights.light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.luansevka-slab.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.luansevka-slab.weights.medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.luansevka-slab.weights.semibold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.luansevka-slab.weights.bold]
+shape = 700
+menu = 700
+css = 700
+# }}}
+
+# Luansevka UI {{{
+
+[buildPlans.luansevka-ui]
+family = "Luansevka UI"
+spacing = "quasi-proportional"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = true
+
+  [buildPlans.luansevka-ui.variants]
+  inherits = "ss08"
+
+    [buildPlans.luansevka-ui.variants.design]
+    capital-a = "curly-serifless"
+    capital-b = "more-asymmetric-interrupted-serifless"
+    capital-c = "serifless"
+    capital-d = "more-rounded-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "toothless-rounded-serifless-hooked"
+    capital-h = "serifless"
+    capital-i = "short-serifed"
+    capital-j = "flat-hook-serifless"
+    capital-k = "symmetric-touching-serifless"
+    capital-l = "serifless"
+    capital-m = "slanted-sides-hanging"
+    capital-n = "asymmetric"
+    capital-p = "open"
+    capital-q = "detached-bend-tailed"
+    capital-r = "straight-open"
+    capital-s = "serifless"
+    capital-t = "serifless"
+    capital-u = "toothless-corner"
+    capital-v = "curly"
+    capital-w = "curly"
+    capital-x = "curly-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "straight-serifless-with-horizontal-crossbar"
+    a = "single-storey-earless-rounded-tailed"
+    b = "toothless-rounded"
+    c = "bilateral-inward-serifed"
+    d = "toothless-rounded-serifless"
+    e = "rounded"
+    f = "diagonal-tailed"
+    g = "double-storey-open"
+    h = "tailed"
+    i = "tailed-serifed"
+    j = "diagonal-tailed-serifless"
+    k = "curly-serifless"
+    l = "tailed"
+    m = "earless-rounded-double-arch-short-leg-tailed"
+    n = "earless-rounded-tailed"
+    p = "earless-rounded"
+    q = "earless-rounded-tailed"
+    r = "earless-rounded"
+    s = "unilateral-inward-serifed"
+    t = "standard-short-neck2"
+    u = "toothless-rounded"
+    v = "cursive"
+    w = "cursive"
+    x = "curly-serifless"
+    y = "curly-turn"
+    z = "straight-serifless-with-horizontal-crossbar"
+    zero = "long-dotted-oval"
+    one = "no-base-long-top-serif"
+    two = "straight-neck"
+    three = "flat-top"
+    four = "semi-open-non-crossing"
+    five = "oblique-upper-left-bar"
+    six = "straight-bar"
+    seven = "curly-crossbar"
+    eight = "crossing-asymmetric"
+    nine = "straight-bar"
+    paren = "large-contour"
+    brace = "curly"
+    ampersand = "et-toothless-rounded"
+    at = "short"
+    dollar = "interrupted-cap"
+    percent = "rings-segmented-slash"
+    bar = "force-upright"
+    lig-ltgteq = "slanted"
+    question = "corner-flat-hooked"
+    lig-equal-chain = "with-notch"
+
+  [buildPlans.luansevka-ui.ligations]
+  inherits = "javascript"
+
+[buildPlans.luansevka-ui.weights.extralight]
+shape = 200
+menu = 200
+css = 200
+
+[buildPlans.luansevka-ui.weights.light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.luansevka-ui.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.luansevka-ui.weights.medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.luansevka-ui.weights.semibold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.luansevka-ui.weights.bold]
+shape = 700
+menu = 700
+css = 700
+
+# }}}
