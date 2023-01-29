@@ -8,4 +8,4 @@ Here's a showcase of the UI variant and the regular one:
 
 And here is the slab variant:
 
-<img width="1514" alt="image" src="https://user-images.githubusercontent.com/223760/215303925-36cd5488-05ad-4707-99ee-281820d12657.png">
+<img width="1514" alt="image" src="https://user-images.githubusercontent.com/223760/215303942-702849d8-018c-42ea-aae0-2c81daaa5716.png">
