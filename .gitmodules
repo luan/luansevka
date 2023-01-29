@@ -2,3 +2,7 @@
 	path = Iosevka
 	url = https://github.com/be5invis/Iosevka.git
 	shallow = true
+[submodule "nerd-fonts"]
+	path = nerd-fonts
+	url = https://github.com/ryanoasis/nerd-fonts
+	shallow = true
