@@ -16,22 +16,25 @@ main() {
    )
 
    mkdir -p ./fonts/regular/luansevka{,-slab,-ui}
-   cp ./Iosevka/fonts/luansevka/ttf/*.ttf ./fonts/regular/luansevka/
-   cp ./Iosevka/fonts/luansevka-slab/ttf/*.ttf ./fonts/regular/luansevka-slab/
-   cp ./Iosevka/fonts/luansevka-ui/ttf/*.ttf ./fonts/regular/luansevka-ui/
+   cp ./Iosevka/dist/luansevka/ttf/*.ttf ./fonts/regular/luansevka/
+   cp ./Iosevka/dist/luansevka-slab/ttf/*.ttf ./fonts/regular/luansevka-slab/
+   cp ./Iosevka/dist/luansevka-ui/ttf/*.ttf ./fonts/regular/luansevka-ui/
+
+   echo
+   echo
 
    (
    cd nerd-fonts || exit 1
    mkdir -p ../fonts/nerd-font/luansevka{,-slab,-ui}
    find ../fonts/regular/luansevka/*.ttf -print0 | \
-      xargs -n 1 -I{} \
+      xargs -0 -I{} -P64 \
       fontforge -script font-patcher "{}" -cls --outputdir=../fonts/nerd-font/luansevka/
    find ../fonts/regular/luansevka-slab/*.ttf -print0 | \
-      xargs -n 1 -I{} \
+      xargs -0 -I{} -P64 \
       fontforge -script font-patcher "{}" -cls --outputdir=../fonts/nerd-font/luansevka-slab/
    find ../fonts/regular/luansevka-ui/*.ttf -print0 | \
-      xargs -n 1 -I{} \
-      fontforge -script font-patcher "{}" -cls --outputdir=../fonts/nerd-font/luansevka-ui/
+      xargs -0 -I{} -P64 \
+      fontforge -script font-patcher "{}" -cl --outputdir=../fonts/nerd-font/luansevka-ui/
    )
 }
 
